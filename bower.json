@@ -1,0 +1,26 @@
+{
+  "name": "juvasquezg.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/juvasquezg/juvasquezg.github.io",
+  "authors": [
+    "juvasquezg <juvasquez88@gmail.com>"
+  ],
+  "description": "Portafolio Personal",
+  "main": "bower.json",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "portafolio",
+    "juvasquezg"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
