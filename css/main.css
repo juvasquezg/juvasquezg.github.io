@@ -182,6 +182,7 @@ th {
 /***********COLORS****************/
 /***********BODY******************/
 body {
+  background-color: #f2f0df;
   font-family: Helvetica, Verdana, Arial;
   font-size: 16px;
   height: 100%;
@@ -199,8 +200,22 @@ figure {
   text-align: center;
   width: 200px;
 }
+.menu_container .logo_menu {
+  padding-top: 20px;
+}
+.menu_container .logo_menu .logo_name {
+  color: #eee;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.menu_container .logo_menu .logo_desc {
+  color: #bbb;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 .menu_container .menu {
-  border-top: solid 1px #444;
+  border-top: solid 1px #888;
   border-bottom: solid 1px #444;
   margin: 0;
   padding: 40px 0 40px 0;
@@ -218,6 +233,38 @@ figure {
 .menu_container .menu .item a:hover {
   color: #f5dfce;
 }
+/***********MAIN MENU*************/
 .main_container {
-  display: none;
+  margin-left: 200px;
+  width: 2600px;
+}
+.main_container section {
+  border-right: dotted 1px #ccc;
+  display: inline-block;
+  height: 600px;
+  padding: 10px;
+  vertical-align: top;
+  width: 500px;
+}
+.main_container section h2 {
+  border-bottom: solid 1px #ccc;
+  padding: 20px 20px;
+  text-transform: uppercase;
+}
+#seccion_inicio {
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 130px 25px 0 25px;
+  text-align: center;
+  width: 450px;
+}
+#seccion_inicio .desc_inicio {
+  color: #444;
+  font-style: italic;
+  font-size: 18px;
+}
+#seccion_inicio .separador_inicio {
+  background-position: center center;
+  height: 50px;
 }

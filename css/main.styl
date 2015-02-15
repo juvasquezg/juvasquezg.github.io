@@ -8,7 +8,7 @@ item_hover = #F5DFCE
 
 /***********BODY******************/
 body
-	//background-color: main_color
+	background-color: main_color
 	font-family Helvetica, Verdana, Arial
 	font-size 16px
 	height 100%
@@ -24,8 +24,19 @@ figure
 	position fixed
 	text-align center
 	width 200px
+	.logo_menu
+		padding-top 20px
+		.logo_name
+			color #eee
+			font-size 14px
+			padding-top 10px
+		.logo_desc
+			color #bbb
+			font-size 12px
+			padding-top 10px
+			padding-bottom 20px
 	.menu
-		border-top solid 1px #444
+		border-top solid 1px #888
 		border-bottom solid 1px #444
 		margin 0
 		padding 40px 0 40px 0
@@ -39,6 +50,35 @@ figure
 				transition 0.3s all
 				&:hover
 					color item_hover
-					
+
+/***********MAIN MENU*************/					
 .main_container
-	display none
+	margin-left 200px
+	width 2600px
+	section
+		border-right dotted 1px #CCC
+		display: inline-block
+		height 600px
+		padding 10px
+		vertical-align top
+		width 500px
+		h2
+			border-bottom solid 1px #ccc
+			padding 20px 20px
+			text-transform uppercase
+			
+#seccion_inicio
+	box-sizing border-box // important
+	overflow hidden
+	overflow-y scroll
+	padding 130px 25px 0 25px
+	text-align center
+	width 450px
+	.desc_inicio
+		color #444
+		font-style italic
+		font-size 18px
+	.separador_inicio
+		background-position center center
+		height 50px
+		
